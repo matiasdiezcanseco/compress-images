@@ -1,0 +1,25 @@
+{
+  "name": "compress-images",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "compress": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gulp": "^4.0.15",
+    "@types/gulp-imagemin": "^8.0.3",
+    "@types/imagemin": "^8.0.2",
+    "@types/node": "^20.8.6",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
